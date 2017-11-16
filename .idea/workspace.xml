@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30e3843-4f29-42d8-a17b-3e3f0fcf1d11" name="Default" comment="" />
+    <list default="true" id="c30e3843-4f29-42d8-a17b-3e3f0fcf1d11" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../seleniumTestingTasks/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../seleniumTestingTasks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../seleniumTestingTasks/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java" afterPath="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/../seleniumTestingTasks/out/" />
     <ignored path="$PROJECT_DIR$/../seleniumTestingTasks/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFunctions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/core/BaseFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
@@ -60,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaygroundPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlaygroundPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="139" column="5" lean-forward="true" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+            <state relative-caret-position="213">
+              <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2012#2013#0" expanded="true" />
@@ -87,18 +91,18 @@
                 <element signature="e#3387#3388#0" expanded="true" />
                 <element signature="e#3628#3629#0" expanded="true" />
                 <element signature="e#3689#3690#0" expanded="true" />
-                <element signature="e#3881#3882#0" expanded="true" />
-                <element signature="e#3942#3943#0" expanded="true" />
+                <element signature="e#3880#3881#0" expanded="true" />
+                <element signature="e#3941#3942#0" expanded="true" />
                 <element signature="e#4098#4099#0" expanded="true" />
                 <element signature="e#4159#4160#0" expanded="true" />
                 <element signature="e#4199#4200#0" expanded="true" />
                 <element signature="e#4258#4259#0" expanded="true" />
                 <element signature="e#4298#4299#0" expanded="true" />
                 <element signature="e#4358#4359#0" expanded="true" />
-                <element signature="e#4545#4546#0" expanded="true" />
-                <element signature="e#4602#4603#0" expanded="true" />
-                <element signature="e#4636#4637#0" expanded="true" />
-                <element signature="e#4692#4693#0" expanded="true" />
+                <element signature="e#4482#4483#0" expanded="true" />
+                <element signature="e#4539#4540#0" expanded="true" />
+                <element signature="e#4572#4573#0" expanded="true" />
+                <element signature="e#4628#4629#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../seleniumTestingTasks" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -128,9 +135,9 @@
         <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/main/java/HomeWork/MainTest.java" />
         <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/HomeWork/MainTest.java" />
         <option value="$PROJECT_DIR$/../seleniumTestingTasks/pom.xml" />
-        <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java" />
         <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/MainTest.java" />
         <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/core/BaseFunctions.java" />
+        <option value="$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java" />
       </list>
     </option>
   </component>
@@ -147,6 +154,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -426,12 +434,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_MainTest - 2017.11.16 at 22h 30m 54s.xml">
-      <configuration name="MainTest.MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_MainTest - 2017.11.16 at 22h 44m 09s.xml">
-      <configuration name="MainTest.MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_MainTest - 2017.11.16 at 22h 44m 33s.xml">
       <configuration name="MainTest.MainTest" configurationId="JUnit" />
     </history-entry>
@@ -456,10 +458,15 @@
     <history-entry file="MainTest_MainTest - 2017.11.16 at 23h 29m 11s.xml">
       <configuration name="MainTest.MainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_MainTest - 2017.11.16 at 23h 46m 30s.xml">
+      <configuration name="MainTest.MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_MainTest - 2017.11.16 at 23h 47m 50s.xml">
+      <configuration name="MainTest.MainTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -469,8 +476,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -546,18 +553,18 @@
             <element signature="e#3387#3388#0" expanded="true" />
             <element signature="e#3628#3629#0" expanded="true" />
             <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3881#3882#0" expanded="true" />
-            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#3880#3881#0" expanded="true" />
+            <element signature="e#3941#3942#0" expanded="true" />
             <element signature="e#4098#4099#0" expanded="true" />
             <element signature="e#4159#4160#0" expanded="true" />
             <element signature="e#4199#4200#0" expanded="true" />
             <element signature="e#4258#4259#0" expanded="true" />
             <element signature="e#4298#4299#0" expanded="true" />
             <element signature="e#4358#4359#0" expanded="true" />
-            <element signature="e#4545#4546#0" expanded="true" />
-            <element signature="e#4602#4603#0" expanded="true" />
-            <element signature="e#4636#4637#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
+            <element signature="e#4482#4483#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4572#4573#0" expanded="true" />
+            <element signature="e#4628#4629#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,10 +692,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/main/java/HomeWork/TestPage.java" />
     <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/MainTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/core/BaseFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding>
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2294#2295#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/pages/PlaygroundPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="139" column="5" lean-forward="true" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        <state relative-caret-position="213">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2012#2013#0" expanded="true" />
@@ -711,18 +731,18 @@
             <element signature="e#3387#3388#0" expanded="true" />
             <element signature="e#3628#3629#0" expanded="true" />
             <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3881#3882#0" expanded="true" />
-            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#3880#3881#0" expanded="true" />
+            <element signature="e#3941#3942#0" expanded="true" />
             <element signature="e#4098#4099#0" expanded="true" />
             <element signature="e#4159#4160#0" expanded="true" />
             <element signature="e#4199#4200#0" expanded="true" />
             <element signature="e#4258#4259#0" expanded="true" />
             <element signature="e#4298#4299#0" expanded="true" />
             <element signature="e#4358#4359#0" expanded="true" />
-            <element signature="e#4545#4546#0" expanded="true" />
-            <element signature="e#4602#4603#0" expanded="true" />
-            <element signature="e#4636#4637#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
+            <element signature="e#4482#4483#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4572#4573#0" expanded="true" />
+            <element signature="e#4628#4629#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,19 +753,6 @@
           <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../seleniumTestingTasks/src/test/java/homeWork/core/BaseFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2347#2348#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
           </folding>
         </state>
       </provider>

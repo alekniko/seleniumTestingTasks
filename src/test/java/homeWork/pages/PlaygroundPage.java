@@ -103,7 +103,7 @@ public class PlaygroundPage {
         baseFunctions.fillInputField(SLOT_11, result);
     }
 
-    public boolean isItemOnThePage () {
+    public boolean isItemOnThePage() {
         List<WebElement> item = baseFunctions.getElements(IS_HERE);
         return item.isEmpty();
 
@@ -113,8 +113,8 @@ public class PlaygroundPage {
         baseFunctions.fillInputField(SLOT_13, result);
     }
 
-    public boolean isItemVisible () {
-      return baseFunctions.getElement(IS_VISIBLE).isDisplayed();
+    public boolean isItemVisible() {
+        return baseFunctions.getElement(IS_VISIBLE).isDisplayed();
 
     }
 
@@ -131,15 +131,15 @@ public class PlaygroundPage {
     }
 
     public void enter() {
-        baseFunctions.switch_to.alert.send_keys(Keys.ENTER);
-//        baseFunctions.pressEnter(OK_BUTTON, Keys.ENTER);
+
+        baseFunctions.pressEnter(OK_BUTTON, Keys.ENTER);
     }
 
-    public void clickSubmit () {
+    public void clickSubmit() {
         baseFunctions.clickElement(SUBMIT_BUTTON);
     }
 
-    public void checkResult () {
+    public void checkResult() {
         baseFunctions.clickElement(CHECK_RESULT);
     }
 
