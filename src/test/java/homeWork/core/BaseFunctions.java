@@ -40,15 +40,15 @@ public class BaseFunctions {
         return driver.findElements(locator);
     }
 
-    public void clickElement(By locator) {
-        LOGGER.info("Click Element");
-        driver.findElement(locator).click();
-    }
-
     public WebElement getElement(By locator) {
         LOGGER.info("Getting element");
         return driver.findElement(locator);
 
+    }
+
+    public void clickElement(By locator) {
+        LOGGER.info("Click Element");
+        driver.findElement(locator).click();
     }
 
     public void fillInputField(By locator, String text) {
