@@ -7,7 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.Alert;
 
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -53,16 +52,19 @@ public class BaseFunctions {
     }
 
     public void fillInputField(By locator, String text) {
+        LOGGER.info("Filling in the input field");
         getElement(locator).clear();
         getElement(locator).sendKeys(text);
     }
 
     public void selectFromDropDown(By locator, String toSelect) {
+        LOGGER.info("Selecting from dropdown menu");
         Select select = new Select(getElement(locator));
         select.selectByVisibleText(toSelect);
     }
 
     public String runJavaScript(String script) {
+        LOGGER.info("Running the script");
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         if (javascriptExecutor.executeScript(script) != null) {
             return javascriptExecutor.executeScript(script).toString();
@@ -71,15 +73,18 @@ public class BaseFunctions {
     }
 
     public void changeWindowSize(int width, int height) {
+        LOGGER.info("Browser window size change");
         driver.manage().window().setSize(new Dimension(width, height));
     }
 
-    public void implicityWait() {
+    public void timeOut() {
+        LOGGER.info("Timeout initiation");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
 
     public void pressEnter() {
+        LOGGER.info("Emulation of ENTER button pressing");
         Alert alert = driver.switchTo().alert();
         alert.accept();
     }
