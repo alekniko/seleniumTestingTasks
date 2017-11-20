@@ -20,7 +20,7 @@ public class MainTest {
     private static final String SCRIPT_2 = "return got_return_from_js_function()";
     private static final int WIDTH = 850;
     private static final int HEIGHT = 650;
-    //private static final int SIZE = 850, 650;
+    
 
     @Test
     public void MainTest() {
