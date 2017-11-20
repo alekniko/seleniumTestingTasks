@@ -6,8 +6,6 @@ import homeWork.pages.PlaygroundPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 
 
 public class MainTest {
@@ -94,10 +92,9 @@ public class MainTest {
         playgroundPage.clickClickThenWait();
         baseFunctions.implicityWait();
         playgroundPage.clickLinkAfterWait();
-        playgroundPage.enter();
-
 
         LOGGER.info("Click OK on the confirm after completing task 15");
+        baseFunctions.pressEnter();
 
         LOGGER.info("Click the submit button on the form");
         playgroundPage.clickSubmit();

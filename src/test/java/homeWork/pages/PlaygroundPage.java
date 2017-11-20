@@ -130,11 +130,6 @@ public class PlaygroundPage {
         baseFunctions.clickElement(CLICK_AFTER_WAIT);
     }
 
-    public void enter() {
-
-        baseFunctions.pressEnter(OK_BUTTON, Keys.ENTER);
-    }
-
     public void clickSubmit() {
         baseFunctions.clickElement(SUBMIT_BUTTON);
     }

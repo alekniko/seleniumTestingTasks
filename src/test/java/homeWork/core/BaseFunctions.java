@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.Alert;
 
 
 import java.util.List;
@@ -62,7 +63,7 @@ public class BaseFunctions {
     }
 
     public String runJavaScript(String script) {
-        JavascriptExecutor javascriptExecutor = (JavascriptExecutor)driver;
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         if (javascriptExecutor.executeScript(script) != null) {
             return javascriptExecutor.executeScript(script).toString();
         }
@@ -73,11 +74,13 @@ public class BaseFunctions {
         driver.manage().window().setSize(new Dimension(width, height));
     }
 
-    public void implicityWait(){
+    public void implicityWait() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    public void pressEnter(By locator, Keys text) {
-        getElement(locator).sendKeys(text);
+
+    public void pressEnter() {
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
     }
 }
